@@ -32,11 +32,11 @@ Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
 ## Versiones
 
 ### version 1.0.0
-![Egg test Image](https://github.com/CharliesJacopoYacniel/eggs/src/captures/127.0.0.1_5500_eggs_index.html.png)
+![Egg test Image](https://github.com/CharliesJacopoYacniel/egg/blob/master/src/captures/127.0.0.1_5500_eggs_index.html.png)
 
 Captura: Primera vista de comin soon.
 
-![Login test Image](https://github.com/CharliesJacopoYacniel/eggs/src/captures/127.0.0.1_5500_eggs_index.htmlMovil.png)
+![Login test Image](https://github.com/CharliesJacopoYacniel/egg/blob/master/src/captures/127.0.0.1_5500_eggs_index.htmlMovil.png)
 
 Captura: Segunda vista de comin soon.
 
