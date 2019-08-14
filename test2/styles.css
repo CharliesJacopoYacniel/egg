@@ -1,0 +1,83 @@
+.card{
+    height: 100%;
+}
+.card-left {
+    background: radial-gradient(black, transparent);
+    height: 100%;
+}
+
+.card-right{
+    background: linear-gradient(to right top ,#b4db4d, transparent);
+    height: 100%;
+}
+img.avatar{
+    margin: 50% auto;
+    border-radius: 50%;
+  }
+  a.a-red{
+      padding: 20px 10px;
+  }
+  
+  .legend h3,
+  .legend h2,
+  .legend h4,
+  .legend h5,
+  .legend p{
+      color: white;
+  }
+  
+  .legend h2,
+  .contact h4{
+      font-size: 20px;
+  }
+  .legend h5{
+      font-size: 12px;
+      color: #a5a5a5;
+  }
+  .legend p{
+      font-size: 14px;
+      color: #bfbfbf;
+  }
+  
+  .contact{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 50px;
+  }
+  .contact p,
+  .contact h4,
+  .contact a{
+      color: white;
+      display: inline-block;
+      padding-left: 10px;
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+  }
+
+#norwegian{
+        /* background: linear-gradient(#d2fcad, #22eaeb); */
+}
+#french{
+        /* background: linear-gradient(#d2fcad, #22eaeb); */
+}
+#spanish{
+        /* background: linear-gradient(#d2fcad, #22eaeb); */
+}
+#hindi{
+        /* background: linear-gradient(#d2fcad, #22eaeb); */
+}
+#mandarin{
+        /* background: linear-gradient(#d2fcad, #22eaeb); */
+}
+#particles-js {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #3a3a3a0d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
