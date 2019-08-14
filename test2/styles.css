@@ -1,3 +1,13 @@
+.ed-container{
+    max-width: 100vw;
+    height: 100vh;
+}
+.ed-item {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .card{
     height: 100%;
 }
@@ -10,12 +20,20 @@
     background: linear-gradient(to right top ,#b4db4d, transparent);
     height: 100%;
 }
-img.avatar{
-    margin: 50% auto;
-    border-radius: 50%;
+
+@media screen and (max-width:576px){
+    .card-left,
+    .card-right{
+        height: 50vh;
+    }
+    .card-right{
+        background: linear-gradient(transparent,#b4db4d);
+    }
   }
-  a.a-red{
-      padding: 20px 10px;
+  
+img.avatar{
+    /* margin: 50% auto; */
+    border-radius: 50%;
   }
   
   .legend h3,
@@ -39,23 +57,25 @@ img.avatar{
       color: #bfbfbf;
   }
   
-  .contact{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding-left: 50px;
-  }
+  
   .contact p,
-  .contact h4,
-  .contact a{
+  .contact h4{
       color: white;
       display: inline-block;
-      padding-left: 10px;
+      /* padding-left: 10px; */
       margin-block-start: 0;
       margin-block-end: 0;
       margin-inline-start: 0;
       margin-inline-end: 0;
   }
+  .contact a{
+      color: white;
+      /* transition: all .2s ease-in; */
+  }
+  .contact a:hover{
+    color: black;
+    /* transform: scale(1.3); */
+}
 
 #norwegian{
         /* background: linear-gradient(#d2fcad, #22eaeb); */
