@@ -7,7 +7,11 @@
     padding-left: 0;
     padding-right: 0;
 }
-
+/* ====== */
+.slider__indicator:nth-child(2n) {
+    background-color: #b4db4d;
+    
+}
 .card{
     height: 100%;
 }
@@ -19,9 +23,21 @@
 .card-right{
     background: linear-gradient(to right top ,#b4db4d, transparent);
     height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-
-@media screen and (max-width:576px){
+.card-right-item{
+    margin: 30px 0px 30px 0px;
+}
+.redes{
+    
+}
+.redes-item{
+margin: 0px 20px 0px 20px;
+}
+@media screen and (max-width:639px){
     .card-left,
     .card-right{
         height: 50vh;
@@ -34,6 +50,7 @@
 img.avatar{
     /* margin: 50% auto; */
     border-radius: 50%;
+    padding: 0px 30px 0px 30px
   }
   
   .legend h3,

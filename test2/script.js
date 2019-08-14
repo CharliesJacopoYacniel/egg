@@ -1,4 +1,5 @@
-/* ---- particles.js config ---- */
+slider('.slides');
+        /* ---- particles.js config ---- */
 
 particlesJS("particles-js", 
 {
